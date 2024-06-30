@@ -1,39 +1,34 @@
+
 @import url(https://fonts.google.com/specimen/Pacifico);
 
-body {font-family: var(paragraph-font);
-max-width: 960px;
-padding: 20px;
-}
-
-root{
+:root {
     --primary-color: #8ecae6
     --secondary-color: #219ebc
-    --accent1-color: #023047
-    --accent2-color: #ffb703
-    --additional-accent-color: #fb8500
-
-    --heading-font: 'Roboto',sans-serif;
-    --paragraph-font: 'Pacifico'
-
-    --nav-background-color: #f0f0f0
-    --nav-link-color: #333
-    --nav-hover-link-color: #FF5733
-    --nav-hover-background-color: #ddd
+    --accent-color: #023247
+   --additional-accent-color:
+   --heading-font: 'Roboto', sans-serif
+   --paragraph-font: 'Open-sans', sans-serif
+   --nav-background-color: var(--background-color)
+   --nav-link-color: #219ebc
+   --nav-hover-link-color: #fb8500
+   --nav-hover-background-color: #ffb703
 
 }
 
 body {
-    font-family: var(--paragraph-font);
-    max-width: 960px;
+    font-family:var(--paragraph-font) ;
+    max-width: 960;
     padding: 20px;
+    margin: auto;
 }
-h1, h2, h3, h4, h5, h6, {
+
+h1 h2 h3 h4 h5 h6 {
     font-family: var(--heading-font);
-    color: var(--primary-color)
+    color: var(--primary-color);
 }
 
 header {
-    padding:10px 20px;
+    padding: 20px;
     background-color: var(--secondary-color);
 }
 
@@ -43,21 +38,18 @@ p {
 
 nav {
     background-color: var(--nav-background-color);
-    font-size: 1.2rem;
-    display: flex;
+    padding: 10px;
 }
 
 nav a {
-    display:block;
     color: var(--nav-link-color);
-    text-decoration:none;
-    padding: 0 10px;
-} 
-nav a: link, nav a: visited{
-    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 10px;
 }
 
-nav a :hover{
+nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
+    border-radius: 5px;
+
 }
