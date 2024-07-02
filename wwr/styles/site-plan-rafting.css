@@ -1,17 +1,24 @@
 
 @import url(https://fonts.google.com/specimen/Pacifico);
 
+body {
+    font-family:var(--paragraph-font);
+    max-width: 960px;
+    padding: 0 20px;}
+
 :root {
     --primary-color: #8ecae6
-    --secondary-color: #219ebc
-    --accent-color: #023247
-   --additional-accent-color:
-   --heading-font: 'Roboto', sans-serif
-   --paragraph-font: 'Open-sans', sans-serif
-   --nav-background-color: var(--background-color)
-   --nav-link-color: #219ebc
-   --nav-hover-link-color: #fb8500
-   --nav-hover-background-color: #ffb703
+        --secondary-color:#219ebc
+        --accent1-color: #023247
+        --accent2-color:#219ebc
+        
+        --heading-fonts: 'Roboto',Arial,sans-serif;
+        --paragraph-font:'Open sans',Arial,sans-serif;
+    
+        --nav-background-color:#ffb703
+        --nav-link-color:#fb8500
+        --nav-hover-link-color:#f8f9fa
+        --nav-hover-background-link-color:#343a40
 
 }
 
@@ -19,7 +26,6 @@ body {
     font-family:var(--paragraph-font) ;
     max-width: 960;
     padding: 20px;
-    margin: auto;
 }
 
 h1 h2 h3 h4 h5 h6 {
@@ -33,23 +39,29 @@ header {
 }
 
 p {
-    padding: 10px;
+    padding: 25px;
 }
 
 nav {
     background-color: var(--nav-background-color);
-    padding: 10px;
+    font-size: 1.2rem;
+    display: flex;
 }
 
 nav a {
+    display: block;
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 10px;
 }
 
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+
+}
+
 nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
-    border-radius: 5px;
 
 }
