@@ -7,18 +7,18 @@ body {
     padding: 0 20px;}
 
 :root {
-    --primary-color:#8ecae6
-        --secondary-color:#219ebc
-        --accent1-color: #023247
-        --accent2-color:#219ebc
+    --primary-color: #8ecae6;
+        --secondary-color: #219ebc;
+        --accent1-color: #023247;
+        --accent2-color: #219ebc;
         
-        --heading-font:'Roboto',Arial,sans-serif;
-        --paragraph-font:'Open sans',Arial,sans-serif;
+        --heading-font: 'Roboto', Arial, sans-serif;
+        --paragraph-font: 'Open sans', Arial, sans-serif;
     
-        --nav-background-color:#ffb703
-        --nav-link-color:#fb8500
-        --nav-hover-link-color:#f8f9fa
-        --nav-hover-background-link-color:#343a40
+        --nav-background-color: #ffb703;
+        --nav-link-color: #fb8500;
+        --nav-hover-link-color: #f8f9fa;
+        --nav-hover-background-color: #343a40;
 
 }
 
