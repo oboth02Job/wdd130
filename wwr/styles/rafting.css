@@ -3,13 +3,13 @@
 
 
 :root {
-    --primary-color: #8ecae6
-    --secondary-color:#219ebc
-    --accent1-color: #023247
-    --background-color:#219ebc
-    --text-color: var(--text-color)
-    --heading-color:#ffb703
-    --link-color: #fb8500
+    --primary-color: #8ecae6;
+    --secondary-color:#219ebc;
+    --accent1-color: #023247;
+    --background-color:#219ebc;
+    --text-color: var(--text-color);
+    --heading-color:#ffb703;
+    --link-color: #fb8500;
 }
 
 body {
