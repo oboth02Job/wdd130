@@ -3,7 +3,7 @@ aside{
 
     width:80%;
     padding: 20px;
-    background: rgb(47, 11, 75);
+    background-color: rgb(47, 11, 75);
     color: aliceblue;
     border: 5px solid rgb(216, 222, 178);
     margin-left: 2px;
@@ -12,9 +12,15 @@ main img {
     width: 200px;
     height: auto;
 }
-p{
-padding: 0;
 
+p{
+    padding: 0;
 }
 
+footer {
+    margin-top:20px ;
+    border-top: 1px;
+    text-align: center;
+
+}
   
