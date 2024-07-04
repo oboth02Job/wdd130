@@ -1,5 +1,5 @@
 
-@import url(https://developers.google.com/fonts/docs/developer_api);
+@import url(https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap);
 
 body {
     font-family: var(--paragraph-font);
