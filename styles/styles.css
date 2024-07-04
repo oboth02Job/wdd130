@@ -44,7 +44,7 @@ nav a {
     padding: 20px;
     text-decoration: none;
     font-size:1.2rem ;
-    font-weight: 7001;
+    font-weight: 700;
     background-color: #222;
     border-radius: 5px;
 }
@@ -89,9 +89,9 @@ footer {
 }
 
 .box {
-    margin: 1 rem;
+    margin: 1rem;
     border: 1px solid rgba(0,0,0,.1);
-    padding: 1 rem;
+    padding: 1rem;
     background-color: #ddd;
     color: #000;
 }
