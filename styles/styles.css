@@ -1,12 +1,9 @@
 
-header, .grid, footer {
-    max-width: 840px;
-    margin: auto;
-}
-
 .grid {
     display: grid;
     align-items: center;
+    max-width: 840px;
+    margin:auto ;
 }
 
 main {
@@ -38,7 +35,8 @@ align-items: center;}
     align-items: center;}
 
     header {max-width: 840px;
-    width: 100%;}
+    width: 100%;
+margin: auto;}
 
 nav a {
     color: white;
@@ -84,6 +82,7 @@ main img {
 }
 
 footer {
+    max-width: 840px;
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
