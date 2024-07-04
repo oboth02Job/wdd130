@@ -109,3 +109,13 @@ aside h2 {
     top: 20px;
     left: 100px;
 }
+
+
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
