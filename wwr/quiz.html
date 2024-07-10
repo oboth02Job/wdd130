@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML and CSS Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        fieldset {
+            border: none;
+            margin-bottom: 15px;
+        }
+        legend {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+        div {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="number"],
+        textarea,
+        select {
+            width: calc(100% - 20px);
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <form action="/submit-quiz" method="post">
+        <h1>HTML and CSS Quiz</h1>
+        <fieldset>
+            <legend>HTML and CSS Questions</legend>
+            
+            <div>
+                <label for="q1">1. What does HTML stand for?</label>
+                <input type="text" id="q1" name="q1" required>
+            </div>
+            
+            <div>
+                <label for="q2">2. Describe the purpose of CSS in web development:</label>
+                <textarea id="q2" name="q2" rows="4" required></textarea>
+            </div>
+            
+            <div>
+                <label for="q3">3. Which HTML tag is used to define an internal style sheet?</label>
+                <select id="q3" name="q3" required>
+                    <option value="" selected disabled>Choose One ...</option>
+                    <option value="style">style</option>
+                    <option value="css">css</option>
+                    <option value="script">script</option>
+                </select>
+            </div>
+            
+            <div>
+                <label for="q4">4. How many levels of headings does HTML provide?</label>
+                <input type="number" id="q4" name="q4" required>
+            </div>
+        </fieldset>
+        
+        <div>
+            <button type="submit">Submit Quiz</button>
+        </div>
+    </form>
+</body>
+</html>
+
+

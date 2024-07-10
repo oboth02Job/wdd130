@@ -49,23 +49,23 @@ body {
         padding-left: 1em;
     }
 
-    header nav ul {
+    nav ul {
         display: flex;
         list-style-type: none;
         margin: 0;
         padding: 0;
     }
 
-    header nav ul li {
+    nav ul li {
         margin-left: 20px;}
 
-       header nav ul li a {
+    nav ul li a {
             color: #fb8500;
             text-decoration: none;
             font-weight: bold;
         }
 
-        header nav ul li a:hover {
+        nav ul li a:hover {
             text-decoration: underline;
         }
 
