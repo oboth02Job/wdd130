@@ -1,11 +1,14 @@
 
+
 header, footer, .grid {
     max-width: 840px;
+    align-items: center;
     margin: 0 auto;
 }
 .grid {
     display: grid;
-    align-items: center;
+    grid-template-columns: 1fr 3fr;
+    gap: 1rem;
     max-width: 840px;
     margin:auto ;
 }
@@ -15,10 +18,9 @@ main {
     margin: 1rem;
 }
 aside{
-    width: 20rem;
+    width: 100;
     position: relative;
     grid-column: 1/2;
-    grid-row: 1/2;
 }
 
 *body {
@@ -39,7 +41,6 @@ align-items: center;}
     align-items: center;}
 
     header {
-        max-width: 840px;
     width: 100%;
 margin: auto;}
 
@@ -50,12 +51,12 @@ nav a {
     text-decoration: none;
     font-size:1.2rem ;
     font-weight: 700;
-    background-color: #222;
+    background-color: #333;
     border-radius: 5px;
 }
 
 h1 {color: steelblue;
-border-bottom: 2px solid #333;}
+border-bottom: 2px solid #219ebc;}
 
 img {
     width: 150px;
@@ -71,12 +72,13 @@ img {
         max-width: 840px;
     }
 
-    aside {width: 300px;
+    aside {
+        width: 300px;
     margin: 20px auto;
 border: 1px solid #8ecae6;
 padding: 15px;
-background-color: #219ebc;
-color: #023047;}
+background-color: #ddd;
+color: none;}
 
 aside img { width: 200px;
 height: auto;}
@@ -87,7 +89,6 @@ main img {
 }
 
 footer {
-    max-width: 840px;
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
@@ -113,21 +114,4 @@ aside h2 {
     position: absolute;
     top: 20px;
     left: 100px;
-}
-
-/* Universal selector */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
-/* Class Selectors */
-.box {
-    margin: 1rem;
-    border: 1px solid rgba(0,0,0,.1);
-    padding: 1rem;
-    background-color: #ddd;
-    color: #000;
 }
