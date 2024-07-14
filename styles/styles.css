@@ -18,7 +18,7 @@ main {
     margin: 1rem;
 }
 aside{
-    width: 100;
+    width: 100px;
     position: relative;
     grid-column: 1/2;
 }
@@ -78,7 +78,7 @@ img {
 border: 1px solid #8ecae6;
 padding: 15px;
 background-color: #ddd;
-color: none;}
+color: #000;}
 
 aside img { width: 200px;
 height: auto;}
