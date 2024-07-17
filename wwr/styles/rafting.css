@@ -1,6 +1,43 @@
 
-@import url(https://fonts.google.com/specimen/Pacifico);
+@import url(https://fonts.google.com/specimen/Pacifico);.contact {
+    margin: 20px;
+}
 
+.company-info {
+    margin-bottom: 20px;
+}
+
+.google-map {
+    margin-bottom: 20px;
+}
+
+.employee-profiles {
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.employee {
+    text-align: center;
+}
+
+.contact-form {
+    margin-bottom: 20px;
+}
+
+.contact-form label,
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-form input[type="checkbox"] {
+    display: inline;
+    margin-right: 5px;
+}
 
 :root {
     --primary-color: #8ecae6;
