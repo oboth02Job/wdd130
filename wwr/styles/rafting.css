@@ -1,5 +1,57 @@
 
-@import url(https://fonts.google.com/specimen/Pacifico);.contact {
+@import url(https://fonts.google.com/specimen/Pacifico);
+.cta {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.cta-button {
+    background-color: #ff6600;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.trips-descriptions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.trip {
+    max-width: 300px;
+    margin: 10px;
+    text-align: center;
+}
+
+.trip img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.trips-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.trips-table th, .trips-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.trips-table th {
+    background-color: #f2f2f2;
+}
+
+
+
+
+.contact {
     margin: 20px;
 }
 
@@ -47,6 +99,7 @@
     --text-color: var(--text-color);
     --heading-color:#ffb703;
     --link-color: #fb8500;
+    
 }
 
 body {
