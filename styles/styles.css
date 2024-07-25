@@ -42,7 +42,7 @@ main {
 }
 aside{
     width: 100px;
-    position: right;
+    position: relative;
     grid-column: 1/2;
     grid-row: 1/2;
 }
